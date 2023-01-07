@@ -17,7 +17,7 @@ const TopBar = () => {
     );
   } else {
     return (
-      <Toolbar >
+      <Toolbar variant="dense"style={{position: "sticky", top: 0, zIndex: 1, backgroundColor: "#efefef"}}>
         <Link style={{color: "inherit", marginRight: 30}} to="/"> <Home/> </Link>
         Veikka Sakari Junttila
       </Toolbar>
