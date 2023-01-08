@@ -27,7 +27,7 @@ const About = () => {
         </p>
   
         <p>
-          My skills most relevant skills with regards to employment include technology, langauge skills and business knowledge. I hold a bachelor’s degree in business administration, will soon finish completing a master’s degree in Business Analytics. I speak English and Japanese fluently, as well as my mother tongue Finnish.
+          My most relevant skills with regards to employment include technology, langauge skills and business knowledge. I hold a bachelor’s degree in International Business, and will finish completing a master’s degree in Business Analytics this year. I speak English and Japanese fluently, as well as my mother tongue Finnish.
         </p>
 
         <p>
@@ -35,7 +35,7 @@ const About = () => {
         </p>
 
         <p>
-          My other interests include photography, feel free to check out <Link to="/gallery">the gallery</Link> for some photos I’ve taken around Japan. I am also an avid follower of sports, namely NHL and Formula 1, both of which can be understood better when you have a grasp of the data that those generate. I’ve been also playing a team sport called floorball all my life, and hit the gym regularly to stay in shape. 
+          My other interests include photography, feel free to check out <Link to="/gallery">the gallery</Link> for some photos I’ve taken around Japan. I am also an avid follower of sports, namely NHL and Formula 1, both of which can be understood better when you have a grasp of the data and statistics. I’ve been also playing a team sport called floorball all my life, and hit the gym regularly to stay in shape. 
         </p>
 
         <p>
