@@ -28,7 +28,6 @@ const App = () => {
 
   return (
       <ThemeProvider theme={theme}>
-      <body style={{overflow: "scroll"}}>
       <CssBaseline/>
       <TopBar/>
       <Box sx={{display: "flex", flexDirection: "row"}}>
@@ -44,7 +43,6 @@ const App = () => {
           <Route path="/contact" element={<ContactForm />} />
       </Routes>
       </Box>
-      </body>
       </ThemeProvider>
   )
   };

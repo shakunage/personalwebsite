@@ -17,7 +17,7 @@ const Sidebar = () => {
     padding: "0.8rem",
     color: "inherit",
     textDecoration: "inherit",
-    fontSize: isDesktop ? 20 : 18
+    fontSize: isDesktop ? 18 : 16
   };
 
   if ((location.pathname !== "/") && !isDesktop) {
@@ -27,29 +27,27 @@ const Sidebar = () => {
         display: 'flex',
         flexDirection: 'column',
         bgcolor: '#e3e3e3',
-        flexGrow: "0",
+        flexGrow: "1",
         height: "100vh",
         alignItems: "center",
-        width: isDesktop ? "20%" : "45%"
+        width: isDesktop ? "17%" : "45%"
         }}>
 
       <img 
         src={headshot}  
         style={{
-          width: isDesktop ? "11.25rem" : "6rem", 
-          height: isDesktop ? "15rem" : "8rem", 
+          width: isDesktop ? "7.5rem" : "6rem", 
+          height: isDesktop ? "10rem" : "8rem", 
           borderRadius: isDesktop ? "10rem" : "5.25rem", 
           padding: isDesktop ? "1rem" : "0.525rem"}}
         alt="headshot" 
       />
 
-      <center style={{fontSize: isDesktop ? 30 : 24}}>
+      <center style={{fontSize: isDesktop ? 28 : 20}}>
         Veikka Sakari
-        <br></br> 
-        Junttila
+        <br></br>
+        Junttila 
       </center>
-
-      <br></br>
 
       <Link style={routerLinkStyle} to="/">
         <span style={{display: isDesktop ? "block" : "none"}}>home</span>
@@ -88,7 +86,7 @@ const Sidebar = () => {
         <a style={{color: "inherit"}} href="https://t.me/veikkasj" target="_blank" rel="noreferrer noopener"><Telegram /></a>
         <a style={{color: "inherit"}} href="https://line.me/ti/p/R_4xAMO1jU" target="_blank" rel="noreferrer noopener"><Icon><img style={{ display:'flex',height:'inherit',width:'inherit',}} alt="line icon" src={lineicon} /></Icon></a>
       </Stack>
-
+      <a style={routerLinkStyle} href="https://www.veikkasakarijunttila.jp/">日本語</a>
     </Box>
   ); }
 };

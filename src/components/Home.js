@@ -12,7 +12,7 @@ const Home = () => {
     return ( 
     <div style={{
             alignItems: "center",
-            width: isDesktop ? "80%" : "55%",
+            width: isDesktop ? "83%" : "55%",
             height: "100vh"
           }}>
             <div>
