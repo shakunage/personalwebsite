@@ -27,11 +27,11 @@ const About = () => {
         </p>
   
         <p>
-          My most relevant skills with regards to employment include technology, langauge skills and business knowledge. I hold a bachelor’s degree in International Business, and will finish completing a master’s degree in Business Analytics this year. I speak English and Japanese fluently, as well as my mother tongue Finnish.
+          My most relevant skills with regards to employment include technology, language skills and business knowledge. I hold a bachelor’s degree in International Business, and will finish completing a master’s degree in Business Analytics this year. I speak English and Japanese fluently, as well as my mother tongue Finnish.
         </p>
 
         <p>
-          You can check out <Link to="/portfolio">my portfolio here</Link>, where I introduce some of my data and software projects. From the <Link to="/blog">the blog</Link>, you can check out some of my thoughts on recent business events, technology and life in Japan. 
+          You can check out <Link to="/portfolio">my portfolio here</Link>, where I introduce some of my data and software projects. From the <Link to="/blog">the blog</Link>, you can check out some of my thoughts on life in Japan. 
         </p>
 
         <p>

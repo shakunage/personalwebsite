@@ -31,7 +31,8 @@ const Home = () => {
                   background: "#efefef",
                   position: "fixed",
                   right: "10%",
-                  top: "10%"
+                  top: "10%",
+                  opacity: "90%"
                 }}>
 
                 Hi there!

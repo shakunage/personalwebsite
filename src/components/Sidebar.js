@@ -86,6 +86,7 @@ const Sidebar = () => {
         <a style={{color: "inherit"}} href="https://t.me/veikkasj" target="_blank" rel="noreferrer noopener"><Telegram /></a>
         <a style={{color: "inherit"}} href="https://line.me/ti/p/R_4xAMO1jU" target="_blank" rel="noreferrer noopener"><Icon><img style={{ display:'flex',height:'inherit',width:'inherit',}} alt="line icon" src={lineicon} /></Icon></a>
       </Stack>
+      <p></p>
       <a style={routerLinkStyle} href="https://www.veikkasakarijunttila.jp/">日本語</a>
     </Box>
   ); }
