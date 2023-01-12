@@ -27,7 +27,7 @@ const Sidebar = () => {
         display: 'flex',
         flexDirection: 'column',
         bgcolor: '#e3e3e3',
-        flexGrow: "1",
+        flexGrow: "0",
         height: "100vh",
         alignItems: "center",
         width: isDesktop ? "17%" : "45%"
